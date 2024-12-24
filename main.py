@@ -82,7 +82,7 @@ if submit:
     model.sum_allocs = pyo.Constraint(rule=sum_allocation)
 
     # Solve the model
-    solver = pyo.SolverFactory('ipopt', executable='C:/ProgramData/anaconda3/envs/PS3/Library/bin/ipopt.exe')
+    solver = pyo.SolverFactory('ipopt', executable='PATH_TO_YOUR_ENV/Library/bin/ipopt.exe')
     solver.solve(model)
 
     # Extract the optimized weights for the portfolio
