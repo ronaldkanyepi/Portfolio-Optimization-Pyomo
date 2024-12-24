@@ -39,3 +39,9 @@ Activate the virtual environment:
 
 ### 4. Run the App
 streamlit run main.py
+
+
+### 5. Demo
+
+![img.png](img.png)
+![img_1.png](img_1.png)
